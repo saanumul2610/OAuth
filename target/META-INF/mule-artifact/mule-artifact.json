@@ -1,0 +1,29 @@
+{
+  "configs": [
+    "oauth2-provider-mule4.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.dejim:oauth2-provider-mule4:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.1.4",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "auth.html",
+        "beans.xml",
+        "docs/flow.png",
+        "keystore.jks",
+        "log4j2.xml",
+        "mule.properties",
+        "oauth2-provider-mule4.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
